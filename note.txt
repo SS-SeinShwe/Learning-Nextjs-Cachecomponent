@@ -1,0 +1,14 @@
+// 152 start
+npm install -D babel-plugin-react-compiler
+// 152 end 
+
+// 153 first start
+npm install prisma@prev tsx @types/pg --save-dev
+npm install @prisma/client@7 @prisma/adapter-pg dotenv pg
+// 153 end
+
+// 153 5mins start
+https://www.prisma.io/docs/guides/v7/frameworks/nextjs
+npx prisma init --output ../app/generated/prisma
+// 153 end
+
