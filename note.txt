@@ -21,3 +21,7 @@ npx prisma generate
 
 // 155 end
 
+// 156 start
+https://better-auth.com/docs/installation
+npm install better-auth
+// 156 end
