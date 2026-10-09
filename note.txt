@@ -24,4 +24,8 @@ npx prisma generate
 // 156 start
 https://better-auth.com/docs/installation
 npm install better-auth
+
+npx @better-auth/cli@latest secret
+
+npx @better-auth/cli generate
 // 156 end
