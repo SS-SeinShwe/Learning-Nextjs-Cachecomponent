@@ -25,9 +25,15 @@ export const auth = betterAuth({
       },
     },
   },
+  session: {
+    cookieCache: {
+      enabled: true,
+      maxAge: 5 * 60, // 5 minutes
+    },
+  },
   plugins: [nextCookies()], // make sure this is the last plugin in the array
   //...
 });
 
 export type Session = typeof auth.$Infer.Session;
-export type User = typeof auth.$Infer.User;
+export type User = typeof auth.$Infer.Session.user;
