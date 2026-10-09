@@ -28,4 +28,6 @@ npm install better-auth
 npx @better-auth/cli@latest secret
 
 npx @better-auth/cli generate
+
+npx prisma migrate dev
 // 156 end
